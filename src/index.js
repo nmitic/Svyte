@@ -3,8 +3,6 @@ import {domFun} from './dom';
 import {parseLetters, isValidType} from './functions';
 import {animFun} from './animations';
 
-console.log(123123);
-
 const fonts = {
   default: fontDefault
 }
@@ -75,4 +73,10 @@ const initSvyte = (settings = defaultSettings) => {
   });
 };
 
+// import TextToSVG from 'text-to-svg';
+
+// TextToSVG.load('../fonts/strawberry_blossom.otf', function(err, textToSVG) {
+//   const svg = textToSVG.getSVG('hello');
+//   console.log(svg);
+// });
 export {initSvyte};
