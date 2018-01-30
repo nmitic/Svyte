@@ -3,6 +3,8 @@ import {domFun} from './dom';
 import {parseLetters, isValidType} from './functions';
 import {animFun} from './animations';
 
+console.log(123123);
+
 const fonts = {
   default: fontDefault
 }
