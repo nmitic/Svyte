@@ -1,1 +1,8 @@
-Small JS plugin for animating user text input. Work in progres. :)
+Small JS experiment for animating user text input. 
+
+For dev run: npm run dev
+FOr Build run: npm run build
+
+Inside src/index.js change defaultSettings objected animation type to be one of the following: drop, draw or scale
+
+The rest of options still needs to be implemented.
