@@ -73,10 +73,4 @@ const initSvyte = (settings = defaultSettings) => {
   });
 };
 
-// import TextToSVG from 'text-to-svg';
-
-// TextToSVG.load('../fonts/strawberry_blossom.otf', function(err, textToSVG) {
-//   const svg = textToSVG.getSVG('hello');
-//   console.log(svg);
-// });
 export {initSvyte};
